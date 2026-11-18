@@ -1,0 +1,56 @@
+[{"stream_name":"stderr","time":8.333734949,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.333795428,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.333800619,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.33380361,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.034460053,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.03451619,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.034521042,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.034524323,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":20.271713643,"data":"DATA /kaggle/input/datasets/diftaradityapratama/exam-cheating-dataset | V2 /kaggle/input/notebooks/diftaradityapratama/exam-cheating-pose-temporal | V3 /kaggle/input/notebooks/diftaradityapratama/exam-cheating-video-mil | device cuda\n"}
+,{"stream_name":"stdout","time":20.27178264,"data":"96 test videos; [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8] videos per (subject, angle) group\n"}
+,{"stream_name":"stdout","time":221.580526769,"data":"vjepa       video auc bin=0.9328 beh-cheat=0.9358 behaviour acc=0.7909 196s\n"}
+,{"stream_name":"stdout","time":405.71484468,"data":"pose        video auc bin=0.8904 beh-cheat=0.8945 behaviour acc=0.7260 380s\n"}
+,{"stream_name":"stdout","time":622.119491877,"data":"vjepa_grid  video auc bin=0.8938 beh-cheat=0.8912 behaviour acc=0.7308 597s\n"}
+,{"stream_name":"stdout","time":813.857635355,"data":"vmae        video auc bin=0.8843 beh-cheat=0.8946 behaviour acc=0.7308 788s\n"}
+,{"stream_name":"stdout","time":1006.114120252,"data":"all         video auc bin=0.9045 beh-cheat=0.9041 behaviour acc=0.7837 981s\n"}
+,{"stream_name":"stdout","time":1217.176613975,"data":"inst vjepa       window auc (cheat-video vs normal-video windows) = 0.6420 211s\n"}
+,{"stream_name":"stdout","time":1422.218420121,"data":"inst pose        window auc (cheat-video vs normal-video windows) = 0.6288 416s\n"}
+,{"stream_name":"stdout","time":1645.630498569,"data":"inst vjepa_grid  window auc (cheat-video vs normal-video windows) = 0.6941 639s\n"}
+,{"stream_name":"stdout","time":1645.733791109,"data":"vjepa+pose+grid  angle cheat acc=0.9786 behaviour acc=0.9712\n"}
+,{"stream_name":"stdout","time":1645.733829094,"data":"vjepa+pose+grid  joint cheat acc=0.9806 behaviour acc=0.9712\n"}
+,{"stream_name":"stdout","time":1645.73383604,"data":"all5             angle cheat acc=0.9806 behaviour acc=0.9760\n"}
+,{"stream_name":"stdout","time":1645.733842011,"data":"all5             joint cheat acc=0.9806 behaviour acc=0.9712\n"}
+,{"stream_name":"stdout","time":1645.76845469,"data":"threshold = 80th pct of normal-video windows: cheat-video windows above = 0.503 {'Looking_Under_the_Desk': 0.59, 'Reading_Hidden_Notes': 0.46, 'Repeated_Peeking': 0.46, 'Using_Smartwatch': 0.51}\n"}
+,{"stream_name":"stdout","time":1645.768513947,"data":"threshold = 90th pct of normal-video windows: cheat-video windows above = 0.426 {'Looking_Under_the_Desk': 0.54, 'Reading_Hidden_Notes': 0.37, 'Repeated_Peeking': 0.37, 'Using_Smartwatch': 0.42}\n"}
+,{"stream_name":"stdout","time":1645.768521877,"data":"threshold = 95th pct of normal-video windows: cheat-video windows above = 0.362 {'Looking_Under_the_Desk': 0.5, 'Reading_Hidden_Notes': 0.31, 'Repeated_Peeking': 0.28, 'Using_Smartwatch': 0.36}\n"}
+,{"stream_name":"stdout","time":1645.768570392,"data":"behaviour rule (own behaviour score \u003e best normal-behaviour score):\n"}
+,{"stream_name":"stdout","time":1645.768576982,"data":"  cheat-video windows flagged: 0.304 {'Looking_Under_the_Desk': 0.47, 'Reading_Hidden_Notes': 0.26, 'Repeated_Peeking': 0.19, 'Using_Smartwatch': 0.3}\n"}
+,{"stream_name":"stdout","time":1645.768581468,"data":"  normal-video windows where some cheat behaviour beats every normal one: 0.019\n"}
+,{"stream_name":"stdout","time":1645.828837703,"data":"test videos whose behaviour changes angle-\u003ejoint: 2 | cheat label changes: 2\n"}
+,{"stream_name":"stdout","time":1645.828864022,"data":" subject              normal            cheat  extra_cost\n"}
+,{"stream_name":"stdout","time":1645.828869882,"data":"       3            Thinking Repeated_Peeking        0.05\n"}
+,{"stream_name":"stdout","time":1645.828874698,"data":"       4      Looking_Around Repeated_Peeking        2.15\n"}
+,{"stream_name":"stdout","time":1645.828879614,"data":"       3     Writing_Answers Repeated_Peeking        2.93\n"}
+,{"stream_name":"stdout","time":1645.828884291,"data":"       5      Looking_Around Repeated_Peeking        2.97\n"}
+,{"stream_name":"stdout","time":1645.828888763,"data":"       2      Looking_Around Repeated_Peeking        3.14\n"}
+,{"stream_name":"stdout","time":1645.82889361,"data":"       0     Writing_Answers Using_Smartwatch        3.50\n"}
+,{"stream_name":"stdout","time":1645.828898322,"data":"       0      Looking_Around Repeated_Peeking        4.21\n"}
+,{"stream_name":"stdout","time":1645.828903339,"data":"       1      Looking_Around Repeated_Peeking        4.86\n"}
+,{"stream_name":"stdout","time":1645.828907966,"data":"       2     Writing_Answers Repeated_Peeking        5.11\n"}
+,{"stream_name":"stdout","time":1645.828912673,"data":"       1     Writing_Answers Using_Smartwatch        5.45\n"}
+,{"stream_name":"stdout","time":1645.828917351,"data":"       5     Writing_Answers Repeated_Peeking        6.09\n"}
+,{"stream_name":"stdout","time":1645.828922415,"data":"       4 Checking_Smartwatch Repeated_Peeking        8.10\n"}
+,{"stream_name":"stdout","time":1646.043659382,"data":"submission_joint.csv {1: 765, 0: 750}\n"}
+,{"stream_name":"stdout","time":1646.043689853,"data":"submission_moment_beh.csv {0: 1300, 1: 215}\n"}
+,{"stream_name":"stdout","time":1646.043696407,"data":"submission_moment_p80.csv {0: 1158, 1: 357}\n"}
+,{"stream_name":"stdout","time":1646.043701182,"data":"submission_moment_p90.csv {0: 1210, 1: 305}\n"}
+,{"stream_name":"stdout","time":1646.043706464,"data":"submission_moment_p95.csv {0: 1261, 1: 254}\n"}
+,{"stream_name":"stderr","time":1651.803770967,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1651.803811828,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1651.994156524,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1651.994183402,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1652.890300429,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1652.981758996,"data":"[NbConvertApp] Writing 43530 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1655.827336881,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1656.557199942,"data":"[NbConvertApp] Writing 428027 bytes to __results__.html\n"}
+]

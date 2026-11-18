@@ -1,0 +1,131 @@
+[{"stream_name":"stderr","time":6.9865820979999995,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":6.986623179,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":7.934035803,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.934072712,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.934078629,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.934083294,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.53701284,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.537050023,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.537053995,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.537056655,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":30.126539654,"data":"DATA: /kaggle/input/datasets/diftaradityapratama/exam-cheating-dataset | device: cuda Tesla T4\n"}
+,{"stream_name":"stdout","time":36.280132625,"data":"(416, 6) {1: 208, 0: 208} subjects: 26\n"}
+,{"stream_name":"stdout","time":36.280168628,"data":"behavior                label\n"}
+,{"stream_name":"stdout","time":36.280174076,"data":"Checking_Smartwatch     0        52\n"}
+,{"stream_name":"stdout","time":36.280178564,"data":"Looking_Around          0        52\n"}
+,{"stream_name":"stdout","time":36.280182696,"data":"Looking_Under_the_Desk  1        52\n"}
+,{"stream_name":"stdout","time":36.280186499,"data":"Reading_Hidden_Notes    1        52\n"}
+,{"stream_name":"stdout","time":36.280190153,"data":"Repeated_Peeking        1        52\n"}
+,{"stream_name":"stdout","time":36.280193734,"data":"Thinking                0        52\n"}
+,{"stream_name":"stdout","time":36.280198011,"data":"Using_Smartwatch        1        52\n"}
+,{"stream_name":"stdout","time":36.280201664,"data":"Writing_Answers         0        52\n"}
+,{"stream_name":"stdout","time":36.280205611,"data":"dtype: int64\n"}
+,{"stream_name":"stderr","time":37.805013621,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":37.805049669,"data":"\n"}
+,{"stream_name":"stderr","time":37.805056875,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":77.448542225,"data":"video 0/416 frames=204 36s\n"}
+,{"stream_name":"stdout","time":321.154014558,"data":"video 50/416 frames=239 280s\n"}
+,{"stream_name":"stdout","time":573.934768597,"data":"video 100/416 frames=256 533s\n"}
+,{"stream_name":"stdout","time":835.280797019,"data":"video 150/416 frames=226 794s\n"}
+,{"stream_name":"stdout","time":1110.263785808,"data":"video 200/416 frames=235 1069s\n"}
+,{"stream_name":"stdout","time":1361.841838836,"data":"video 250/416 frames=232 1320s\n"}
+,{"stream_name":"stdout","time":1611.953031906,"data":"video 300/416 frames=238 1571s\n"}
+,{"stream_name":"stdout","time":1867.661147034,"data":"video 350/416 frames=231 1826s\n"}
+,{"stream_name":"stdout","time":2130.03018786,"data":"video 400/416 frames=236 2089s\n"}
+,{"stream_name":"stdout","time":2193.018142709,"data":"train feats (100080, 10, 768) 2152s\n"}
+,{"stream_name":"stdout","time":2197.77730608,"data":"test 0/1515 5s\n"}
+,{"stream_name":"stdout","time":2309.677448755,"data":"test 300/1515 117s\n"}
+,{"stream_name":"stdout","time":2419.941209962,"data":"test 600/1515 227s\n"}
+,{"stream_name":"stdout","time":2529.773157105,"data":"test 900/1515 337s\n"}
+,{"stream_name":"stdout","time":2650.003391103,"data":"test 1200/1515 457s\n"}
+,{"stream_name":"stdout","time":2766.230150367,"data":"test 1500/1515 573s\n"}
+,{"stream_name":"stdout","time":2771.626226591,"data":"test feats (1515, 15, 10, 768)\n"}
+,{"stream_name":"stderr","time":2772.666365205,"data":"/tmp/ipykernel_23/2367296982.py:9: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\n"}
+,{"stream_name":"stderr","time":2772.666447026,"data":"  self.enc = nn.TransformerEncoder(layer, layers)\n"}
+,{"stream_name":"stderr","time":2772.666465444,"data":"/tmp/ipykernel_23/2367296982.py:72: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.\n"}
+,{"stream_name":"stderr","time":2772.666470402,"data":"  scaler = torch.cuda.amp.GradScaler()\n"}
+,{"stream_name":"stderr","time":2772.666476389,"data":"\n"}
+,{"stream_name":"stderr","time":2772.666492037,"data":"/tmp/ipykernel_23/2367296982.py:9: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\n"}
+,{"stream_name":"stderr","time":2772.666495522,"data":"  self.enc = nn.TransformerEncoder(layer, layers)\n"}
+,{"stream_name":"stderr","time":2772.666498436,"data":"/tmp/ipykernel_23/2367296982.py:72: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.\n"}
+,{"stream_name":"stderr","time":2772.666501528,"data":"  scaler = torch.cuda.amp.GradScaler()\n"}
+,{"stream_name":"stdout","time":2960.320815916,"data":"fold 0 subjects=[1, 1, 1].. acc=0.6246 auc=0.6783 188s\n"}
+,{"stream_name":"stderr","time":2960.528798348,"data":"/tmp/ipykernel_23/2367296982.py:9: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\n"}
+,{"stream_name":"stderr","time":2960.528837901,"data":"  self.enc = nn.TransformerEncoder(layer, layers)\n"}
+,{"stream_name":"stderr","time":2960.528844461,"data":"/tmp/ipykernel_23/2367296982.py:72: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.\n"}
+,{"stream_name":"stderr","time":2960.528849451,"data":"  scaler = torch.cuda.amp.GradScaler()\n"}
+,{"stream_name":"stderr","time":2960.528853668,"data":"\n"}
+,{"stream_name":"stderr","time":2960.528857736,"data":"/tmp/ipykernel_23/2367296982.py:9: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\n"}
+,{"stream_name":"stderr","time":2960.528863741,"data":"  self.enc = nn.TransformerEncoder(layer, layers)\n"}
+,{"stream_name":"stderr","time":2960.528871804,"data":"/tmp/ipykernel_23/2367296982.py:72: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.\n"}
+,{"stream_name":"stderr","time":2960.528876255,"data":"  scaler = torch.cuda.amp.GradScaler()\n"}
+,{"stream_name":"stdout","time":3156.458462697,"data":"fold 1 subjects=[5, 5, 5].. acc=0.5457 auc=0.5855 384s\n"}
+,{"stream_name":"stderr","time":3156.666520365,"data":"/tmp/ipykernel_23/2367296982.py:9: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\n"}
+,{"stream_name":"stderr","time":3156.666562947,"data":"  self.enc = nn.TransformerEncoder(layer, layers)\n"}
+,{"stream_name":"stderr","time":3156.666571168,"data":"/tmp/ipykernel_23/2367296982.py:72: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.\n"}
+,{"stream_name":"stderr","time":3156.666576323,"data":"  scaler = torch.cuda.amp.GradScaler()\n"}
+,{"stream_name":"stderr","time":3156.666581155,"data":"\n"}
+,{"stream_name":"stderr","time":3156.666585935,"data":"/tmp/ipykernel_23/2367296982.py:9: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\n"}
+,{"stream_name":"stderr","time":3156.66659074,"data":"  self.enc = nn.TransformerEncoder(layer, layers)\n"}
+,{"stream_name":"stderr","time":3156.666595238,"data":"/tmp/ipykernel_23/2367296982.py:72: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.\n"}
+,{"stream_name":"stderr","time":3156.666600464,"data":"  scaler = torch.cuda.amp.GradScaler()\n"}
+,{"stream_name":"stdout","time":3352.437798755,"data":"fold 2 subjects=[4, 4, 4].. acc=0.5345 auc=0.5784 580s\n"}
+,{"stream_name":"stderr","time":3352.651582445,"data":"/tmp/ipykernel_23/2367296982.py:9: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\n"}
+,{"stream_name":"stderr","time":3352.651644769,"data":"  self.enc = nn.TransformerEncoder(layer, layers)\n"}
+,{"stream_name":"stderr","time":3352.651652927,"data":"/tmp/ipykernel_23/2367296982.py:72: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.\n"}
+,{"stream_name":"stderr","time":3352.651658594,"data":"  scaler = torch.cuda.amp.GradScaler()\n"}
+,{"stream_name":"stderr","time":3352.651663776,"data":"\n"}
+,{"stream_name":"stderr","time":3352.651668744,"data":"/tmp/ipykernel_23/2367296982.py:9: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\n"}
+,{"stream_name":"stderr","time":3352.651673911,"data":"  self.enc = nn.TransformerEncoder(layer, layers)\n"}
+,{"stream_name":"stderr","time":3352.651678451,"data":"/tmp/ipykernel_23/2367296982.py:72: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.\n"}
+,{"stream_name":"stderr","time":3352.651689217,"data":"  scaler = torch.cuda.amp.GradScaler()\n"}
+,{"stream_name":"stdout","time":3548.438539983,"data":"fold 3 subjects=[3, 3, 3].. acc=0.5425 auc=0.5994 776s\n"}
+,{"stream_name":"stderr","time":3548.661781071,"data":"/tmp/ipykernel_23/2367296982.py:9: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\n"}
+,{"stream_name":"stderr","time":3548.66181818,"data":"  self.enc = nn.TransformerEncoder(layer, layers)\n"}
+,{"stream_name":"stderr","time":3548.66182481,"data":"/tmp/ipykernel_23/2367296982.py:72: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.\n"}
+,{"stream_name":"stderr","time":3548.661829358,"data":"  scaler = torch.cuda.amp.GradScaler()\n"}
+,{"stream_name":"stderr","time":3548.661834005,"data":"\n"}
+,{"stream_name":"stderr","time":3548.66183834,"data":"/tmp/ipykernel_23/2367296982.py:9: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\n"}
+,{"stream_name":"stderr","time":3548.661856227,"data":"  self.enc = nn.TransformerEncoder(layer, layers)\n"}
+,{"stream_name":"stderr","time":3548.661860471,"data":"/tmp/ipykernel_23/2367296982.py:72: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.\n"}
+,{"stream_name":"stderr","time":3548.661864612,"data":"  scaler = torch.cuda.amp.GradScaler()\n"}
+,{"stream_name":"stdout","time":3744.825417732,"data":"fold 4 subjects=[2, 2, 2].. acc=0.5340 auc=0.5455 972s\n"}
+,{"stream_name":"stdout","time":3745.012776249,"data":"{\n"}
+,{"stream_name":"stdout","time":3745.012809995,"data":" \"window\": {\n"}
+,{"stream_name":"stdout","time":3745.012814481,"data":"  \"acc\": 0.5588,\n"}
+,{"stream_name":"stdout","time":3745.012817751,"data":"  \"f1\": 0.5741,\n"}
+,{"stream_name":"stdout","time":3745.012820852,"data":"  \"auc\": 0.5937\n"}
+,{"stream_name":"stdout","time":3745.012823878,"data":" },\n"}
+,{"stream_name":"stdout","time":3745.012826812,"data":" \"window_smoothed(+-7)\": {\n"}
+,{"stream_name":"stdout","time":3745.012829825,"data":"  \"acc\": 0.567,\n"}
+,{"stream_name":"stdout","time":3745.012833047,"data":"  \"f1\": 0.5838,\n"}
+,{"stream_name":"stdout","time":3745.012835991,"data":"  \"auc\": 0.6021\n"}
+,{"stream_name":"stdout","time":3745.012838931,"data":" }\n"}
+,{"stream_name":"stdout","time":3745.012841821,"data":"}\n"}
+,{"stream_name":"stdout","time":3745.012844766,"data":"\n"}
+,{"stream_name":"stdout","time":3745.012847673,"data":"per-behaviour window accuracy (target label shown):\n"}
+,{"stream_name":"stdout","time":3745.012850705,"data":"angle                   front   side\n"}
+,{"stream_name":"stdout","time":3745.012853683,"data":"behavior                            \n"}
+,{"stream_name":"stdout","time":3745.01285668,"data":"Checking_Smartwatch     0.453  0.504\n"}
+,{"stream_name":"stdout","time":3745.012859609,"data":"Looking_Around          0.672  0.451\n"}
+,{"stream_name":"stdout","time":3745.012862535,"data":"Looking_Under_the_Desk  0.737  0.642\n"}
+,{"stream_name":"stdout","time":3745.012865616,"data":"Reading_Hidden_Notes    0.688  0.518\n"}
+,{"stream_name":"stdout","time":3745.012868735,"data":"Repeated_Peeking        0.562  0.480\n"}
+,{"stream_name":"stdout","time":3745.012871703,"data":"Thinking                0.704  0.583\n"}
+,{"stream_name":"stdout","time":3745.012874628,"data":"Using_Smartwatch        0.643  0.455\n"}
+,{"stream_name":"stdout","time":3745.01287759,"data":"Writing_Answers         0.462  0.389\n"}
+,{"stream_name":"stdout","time":3745.039669275,"data":"label\n"}
+,{"stream_name":"stdout","time":3745.039701456,"data":"0    848\n"}
+,{"stream_name":"stdout","time":3745.039708154,"data":"1    667\n"}
+,{"stream_name":"stdout","time":3745.03971326,"data":"Name: count, dtype: int64\n"}
+,{"stream_name":"stdout","time":3926.963080712,"data":"links kept: 1418 / 1515\n"}
+,{"stream_name":"stdout","time":3926.963129181,"data":"smoothed label changes vs raw: 152\n"}
+,{"stream_name":"stderr","time":3932.912147024,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3932.912178265,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3933.087548546,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3933.087572548,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3933.889104995,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":3933.97414134,"data":"[NbConvertApp] Writing 57450 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":3936.446363362,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3937.054204047,"data":"[NbConvertApp] Writing 409513 bytes to __results__.html\n"}
+]

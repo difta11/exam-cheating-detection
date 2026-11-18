@@ -1,0 +1,20 @@
+{
+  "kaggle/exam-cheating-dinov2-temporal/kernel-metadata.json": {
+    "mtime": 1794884494.3911598,
+    "seen": 1794884577.8738832,
+    "ast_hash": "bc40b82a2cda95e9b949e4a3b820aa52",
+    "semantic_hash": "bc40b82a2cda95e9b949e4a3b820aa52"
+  },
+  "notebooks/cheat_dinov2_temporal.py": {
+    "mtime": 1794884483.244779,
+    "seen": 1794884577.8739028,
+    "ast_hash": "29dce336f21564fade8a941329fed858",
+    "semantic_hash": "29dce336f21564fade8a941329fed858"
+  },
+  "tools/py2ipynb.py": {
+    "mtime": 1794884493.5012019,
+    "seen": 1794884577.8739123,
+    "ast_hash": "78c2290bbdf4195804e7d82c193d1f89",
+    "semantic_hash": "78c2290bbdf4195804e7d82c193d1f89"
+  }
+}

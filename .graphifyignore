@@ -1,0 +1,9 @@
+# Raw data (416 HEVC videos + 45k test JPGs) - never index
+dataset/
+# Kaggle outputs / local working dirs
+outputs/
+work/
+*.npy
+*.pt
+# Generated notebook (source of truth is notebooks/*.py)
+kaggle/**/*.ipynb

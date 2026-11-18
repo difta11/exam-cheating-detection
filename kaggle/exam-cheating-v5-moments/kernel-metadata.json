@@ -1,0 +1,15 @@
+{
+  "id": "diftaradityapratama/exam-cheating-v5-moments",
+  "title": "exam-cheating-v5-moments",
+  "code_file": "exam-cheating-v5-moments.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": ["diftaradityapratama/exam-cheating-dataset"],
+  "competition_sources": [],
+  "kernel_sources": ["diftaradityapratama/exam-cheating-pose-temporal", "diftaradityapratama/exam-cheating-video-mil"],
+  "model_sources": []
+}

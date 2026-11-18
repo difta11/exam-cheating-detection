@@ -1,0 +1,15 @@
+{
+  "id": "diftaradityapratama/exam-cheating-video-mil",
+  "title": "exam-cheating-video-mil",
+  "code_file": "exam-cheating-video-mil.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": ["diftaradityapratama/exam-cheating-dataset"],
+  "competition_sources": [],
+  "kernel_sources": ["diftaradityapratama/exam-cheating-pose-temporal"],
+  "model_sources": []
+}

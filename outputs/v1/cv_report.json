@@ -1,0 +1,17 @@
+{
+ "cv": {
+  "window": {
+   "acc": 0.5588,
+   "f1": 0.5741,
+   "auc": 0.5937
+  },
+  "window_smoothed(+-7)": {
+   "acc": 0.567,
+   "f1": 0.5838,
+   "auc": 0.6021
+  }
+ },
+ "n_links": 1418,
+ "n_models": 15,
+ "changes_smooth_vs_raw": 152
+}

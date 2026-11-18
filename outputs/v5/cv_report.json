@@ -1,0 +1,24 @@
+{
+ "vjepa+pose+grid_angle": {
+  "acc": 0.9786,
+  "behaviour_acc": 0.9712
+ },
+ "vjepa+pose+grid_joint": {
+  "acc": 0.9806,
+  "behaviour_acc": 0.9712
+ },
+ "all5_angle": {
+  "acc": 0.9806,
+  "behaviour_acc": 0.976
+ },
+ "all5_joint": {
+  "acc": 0.9806,
+  "behaviour_acc": 0.9712
+ },
+ "moment_thresholds": {
+  "p80": -13.474046305318671,
+  "p90": -9.9379216949145,
+  "p95": -7.037557040900001
+ },
+ "moment_beh_rule_fraction_cheat_windows": 0.3037196434060867
+}

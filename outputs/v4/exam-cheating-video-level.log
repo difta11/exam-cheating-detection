@@ -1,0 +1,82 @@
+[{"stream_name":"stderr","time":5.501566772,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":5.501609665,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":6.276068366,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.276094084,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.276098476,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.27610199,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.815052991,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.815080765,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.815085314,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.815101929,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":15.796771597,"data":"DATA /kaggle/input/datasets/diftaradityapratama/exam-cheating-dataset | V2 /kaggle/input/notebooks/diftaradityapratama/exam-cheating-pose-temporal | V3 /kaggle/input/notebooks/diftaradityapratama/exam-cheating-video-mil | device cuda\n"}
+,{"stream_name":"stdout","time":15.796806611000001,"data":"96 test videos; [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8] videos per (subject, angle) group\n"}
+,{"stream_name":"stdout","time":183.122601638,"data":"vjepa       video auc bin=0.9328 beh-cheat=0.9358 behaviour acc=0.7909 164s\n"}
+,{"stream_name":"stdout","time":335.564759382,"data":"pose        video auc bin=0.8904 beh-cheat=0.8945 behaviour acc=0.7260 317s\n"}
+,{"stream_name":"stdout","time":517.470966444,"data":"vjepa_grid  video auc bin=0.8938 beh-cheat=0.8912 behaviour acc=0.7308 499s\n"}
+,{"stream_name":"stdout","time":675.75408877,"data":"vmae        video auc bin=0.8843 beh-cheat=0.8946 behaviour acc=0.7308 657s\n"}
+,{"stream_name":"stdout","time":834.116630383,"data":"all         video auc bin=0.9045 beh-cheat=0.9041 behaviour acc=0.7837 815s\n"}
+,{"stream_name":"stdout","time":834.210859037,"data":"vjepa            {'thr': 0.8446, 'rank': 0.8688, 'assign': 0.9171, 'auc': 0.9355, 'behaviour_acc': 0.8966}\n"}
+,{"stream_name":"stdout","time":834.210889867,"data":"pose             {'thr': 0.8237, 'rank': 0.8614, 'assign': 0.904, 'auc': 0.8933, 'behaviour_acc': 0.863}\n"}
+,{"stream_name":"stdout","time":834.210894622,"data":"vjepa_grid       {'thr': 0.8124, 'rank': 0.8753, 'assign': 0.9498, 'auc': 0.8936, 'behaviour_acc': 0.9303}\n"}
+,{"stream_name":"stdout","time":834.210898362,"data":"vmae             {'thr': 0.798, 'rank': 0.8186, 'assign': 0.9159, 'auc': 0.8901, 'behaviour_acc': 0.8798}\n"}
+,{"stream_name":"stdout","time":834.21090158,"data":"all              {'thr': 0.8301, 'rank': 0.8659, 'assign': 0.9325, 'auc': 0.9049, 'behaviour_acc': 0.9159}\n"}
+,{"stream_name":"stdout","time":834.210922324,"data":"vjepa+pose       {'thr': 0.8697, 'rank': 0.9148, 'assign': 0.9732, 'auc': 0.9497, 'behaviour_acc': 0.9639}\n"}
+,{"stream_name":"stdout","time":834.210927746,"data":"vjepa+pose+grid  {'thr': 0.8903, 'rank': 0.9241, 'assign': 0.9786, 'auc': 0.9545, 'behaviour_acc': 0.9712}\n"}
+,{"stream_name":"stdout","time":834.210944711,"data":"vjepa+vmae+pose  {'thr': 0.8745, 'rank': 0.9145, 'assign': 0.9752, 'auc': 0.9503, 'behaviour_acc': 0.9615}\n"}
+,{"stream_name":"stdout","time":834.210948631,"data":"all5             {'thr': 0.8979, 'rank': 0.9238, 'assign': 0.9806, 'auc': 0.9514, 'behaviour_acc': 0.976}\n"}
+,{"stream_name":"stdout","time":834.210951973,"data":"best video-only: all5 0.8979 | best group: ('all5', 'assign') 0.9806\n"}
+,{"stream_name":"stdout","time":834.210955119,"data":"assigned                Checking_Smartwatch  Looking_Around  \\\n"}
+,{"stream_name":"stdout","time":834.210958572,"data":"behavior                                                      \n"}
+,{"stream_name":"stdout","time":834.210962904,"data":"Checking_Smartwatch                      52               0   \n"}
+,{"stream_name":"stdout","time":834.210966936,"data":"Looking_Around                            0              47   \n"}
+,{"stream_name":"stdout","time":834.210977529,"data":"Looking_Under_the_Desk                    0               0   \n"}
+,{"stream_name":"stdout","time":834.210981029,"data":"Reading_Hidden_Notes                      0               0   \n"}
+,{"stream_name":"stdout","time":834.210984424,"data":"Repeated_Peeking                          0               4   \n"}
+,{"stream_name":"stdout","time":834.210987595,"data":"Thinking                                  0               0   \n"}
+,{"stream_name":"stdout","time":834.2109909,"data":"Using_Smartwatch                          0               0   \n"}
+,{"stream_name":"stdout","time":834.210994207,"data":"Writing_Answers                           0               1   \n"}
+,{"stream_name":"stdout","time":834.210997467,"data":"\n"}
+,{"stream_name":"stdout","time":834.211000539,"data":"assigned                Looking_Under_the_Desk  Reading_Hidden_Notes  \\\n"}
+,{"stream_name":"stdout","time":834.211003976,"data":"behavior                                                               \n"}
+,{"stream_name":"stdout","time":834.211007627,"data":"Checking_Smartwatch                          0                     0   \n"}
+,{"stream_name":"stdout","time":834.21101129,"data":"Looking_Around                               0                     0   \n"}
+,{"stream_name":"stdout","time":834.211014982,"data":"Looking_Under_the_Desk                      52                     0   \n"}
+,{"stream_name":"stdout","time":834.211020847,"data":"Reading_Hidden_Notes                         0                    52   \n"}
+,{"stream_name":"stdout","time":834.211024636,"data":"Repeated_Peeking                             0                     0   \n"}
+,{"stream_name":"stdout","time":834.211028394,"data":"Thinking                                     0                     0   \n"}
+,{"stream_name":"stdout","time":834.211031845,"data":"Using_Smartwatch                             0                     0   \n"}
+,{"stream_name":"stdout","time":834.211035891,"data":"Writing_Answers                              0                     0   \n"}
+,{"stream_name":"stdout","time":834.211039682,"data":"\n"}
+,{"stream_name":"stdout","time":834.211042886,"data":"assigned                Repeated_Peeking  Thinking  Using_Smartwatch  \\\n"}
+,{"stream_name":"stdout","time":834.211046063,"data":"behavior                                                               \n"}
+,{"stream_name":"stdout","time":834.211049285,"data":"Checking_Smartwatch                    0         0                 0   \n"}
+,{"stream_name":"stdout","time":834.211052694,"data":"Looking_Around                         4         0                 0   \n"}
+,{"stream_name":"stdout","time":834.211056187,"data":"Looking_Under_the_Desk                 0         0                 0   \n"}
+,{"stream_name":"stdout","time":834.211065559,"data":"Reading_Hidden_Notes                   0         0                 0   \n"}
+,{"stream_name":"stdout","time":834.211069982,"data":"Repeated_Peeking                      48         0                 0   \n"}
+,{"stream_name":"stdout","time":834.21107346,"data":"Thinking                               0        52                 0   \n"}
+,{"stream_name":"stdout","time":834.211076936,"data":"Using_Smartwatch                       0         0                52   \n"}
+,{"stream_name":"stdout","time":834.211080491,"data":"Writing_Answers                        0         0                 0   \n"}
+,{"stream_name":"stdout","time":834.211084398,"data":"\n"}
+,{"stream_name":"stdout","time":834.211087606,"data":"assigned                Writing_Answers  \n"}
+,{"stream_name":"stdout","time":834.211091373,"data":"behavior                                 \n"}
+,{"stream_name":"stdout","time":834.211094712,"data":"Checking_Smartwatch                   0  \n"}
+,{"stream_name":"stdout","time":834.211098007,"data":"Looking_Around                        1  \n"}
+,{"stream_name":"stdout","time":834.211101314,"data":"Looking_Under_the_Desk                0  \n"}
+,{"stream_name":"stdout","time":834.211104742,"data":"Reading_Hidden_Notes                  0  \n"}
+,{"stream_name":"stdout","time":834.211107989,"data":"Repeated_Peeking                      0  \n"}
+,{"stream_name":"stdout","time":834.21111141,"data":"Thinking                              0  \n"}
+,{"stream_name":"stdout","time":834.211115324,"data":"Using_Smartwatch                      0  \n"}
+,{"stream_name":"stdout","time":834.211118746,"data":"Writing_Answers                      51  \n"}
+,{"stream_name":"stdout","time":834.501553323,"data":"submission_pure.csv {0: 821, 1: 694}\n"}
+,{"stream_name":"stdout","time":834.50157776,"data":"submission_video.csv {0: 760, 1: 755}\n"}
+,{"stream_name":"stdout","time":834.501582865,"data":"submission_group.csv {1: 766, 0: 749}\n"}
+,{"stream_name":"stderr","time":839.837686839,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":839.837716775,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":839.996908832,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":839.996933528,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":840.72979174,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":840.805826245,"data":"[NbConvertApp] Writing 34415 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":843.318881213,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":843.889489546,"data":"[NbConvertApp] Writing 380738 bytes to __results__.html\n"}
+]

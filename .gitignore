@@ -1,0 +1,60 @@
+# ===== Competition data (never push: competition rules + size) =====
+dataset/
+data/
+work/
+
+# Raw media anywhere (videos, frames, previews made from dataset frames)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.hevc
+*.h265
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+
+# Archives (e.g. downloaded competition zips)
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# ===== Extracted features / model weights (large; >100 MB fails on GitHub) =====
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.bin
+*.h5
+*.pkl
+*.joblib
+*.parquet
+*.feather
+
+# ===== Secrets =====
+kaggle.json
+.env
+.env.*
+
+# ===== Python / Jupyter =====
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ===== Tools / editor / OS =====
+.claude/settings.local.json
+graphify-out/cache/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

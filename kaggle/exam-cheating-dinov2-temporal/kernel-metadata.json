@@ -1,0 +1,15 @@
+{
+  "id": "diftaradityapratama/exam-cheating-dinov2-temporal",
+  "title": "exam-cheating-dinov2-temporal",
+  "code_file": "exam-cheating-dinov2-temporal.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": ["diftaradityapratama/exam-cheating-dataset"],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}
